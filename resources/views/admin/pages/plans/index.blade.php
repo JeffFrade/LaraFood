@@ -35,6 +35,10 @@
                         </tbody>
                     </table>
                 </div>
+
+                <div class="card-footer">
+                    {!! $plans->links() !!}
+                </div>
             </div>
         </div>
     </div>
